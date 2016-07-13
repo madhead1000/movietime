@@ -1,11 +1,22 @@
 {
-    "name": "BrowserTorrent",
-    "version": "1.0.0",
-    "scripts": {
-            "start": "node ./latest-server.js"
-    },
-    "dependencies": {
-        "express": "~4.13.1",
-        "webtorrent": "~0.62.3"
-    }
+  "name": "Movie-Stream",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node ./server.js"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "^0.0.3",
+    "body-parser": "^1.15.2",
+    "express": "~4.13.1",
+    "eztv.ag": "1.0.0",
+    "jsonfile": "^2.3.1",
+    "jsonwebtoken": "^7.0.1",
+    "jwt-simple": "^0.5.0",
+    "mongoose": "^4.5.3",
+    "mongoose-double": "^0.0.1",
+    "morgan": "^1.7.0",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.1.0",
+    "webtorrent": "^0.62.3"
+  }
 }
